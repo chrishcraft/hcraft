@@ -28,7 +28,6 @@ const Section = styled.section`
   }
   .featured {
     display: flex;
-    flex-wrap: wrap;
     margin: 0 auto 3em;
     max-width: 2000px;
     justify-content: space-between;
