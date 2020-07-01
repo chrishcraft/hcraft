@@ -9,7 +9,7 @@ const usePortfolio = () => {
           sourceInstanceName: { eq: "portfolio" }
           extension: { eq: "mdx" }
         }
-        sort: { fields: [relativePath], order: ASC }
+        sort: { fields: [relativePath], order: DESC }
       ) {
         nodes {
           childMdx {
