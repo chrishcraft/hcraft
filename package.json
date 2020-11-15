@@ -22,6 +22,7 @@
     "gatsby-remark-images": "^3.3.16",
     "gatsby-source-filesystem": "^2.3.16",
     "gatsby-transformer-sharp": "^2.5.9",
+    "nuka-carousel": "^4.7.2",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

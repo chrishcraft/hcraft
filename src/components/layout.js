@@ -49,6 +49,10 @@ const Page = styled.div`
       }
     }
   }
+  .slider {
+    max-width: ${p => p.theme.width};
+    margin: 0 auto;
+  }
   .content {
     max-width: ${p => p.theme.width};
     margin: 0 auto;

@@ -66,6 +66,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: require.resolve("./src/components/portfolioTemplate.js"),
       context: {
         slug: node.frontmatter.slug,
+        sliderGlob: `**/*${node.frontmatter.slug}/slider`,
       },
     })
   })
